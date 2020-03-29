@@ -1,0 +1,599 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  cursor: pointer !important;
+}
+
+.wrapper {
+  width: 1020px;
+  margin: auto;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #444;
+  font-family: 'Sawarabi Gothic', sans-serif;
+  counter-reset: number 0;
+  background-color: #FFFFDD;
+}
+
+ul {
+  list-style: none;
+}
+
+.account_nav ul, .global_nav ul {
+  list-style: none;
+}
+
+.account_nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.global_nav {
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  text-align: center;
+  height: 100px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.account {
+  width: 960px;
+  display: flex;
+  flex-direction: row;
+}
+
+table tr img {
+  width: 80px;
+}
+
+.top {
+  background-image: url(../images/aa.jpg);
+  width: 1020px;
+  background-size: cover;
+  margin: auto;
+  height: 450px;
+  position: relative;
+}
+
+.logo {
+  width: 200px;
+  position: absolute;
+  top: 350px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+a {
+  cursor: pointer;
+}
+
+.login-page {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 360px;
+  justify-self: center;
+  /*コンテナ内の個別アイテムの横方向の揃え位置を指定する*/
+  align-self: center;
+  /*コンテナ内の個別アイテムの縦方向の揃え位置を指定する*/
+}
+
+.login-page {
+  margin-top: 100px;
+  width: 360px;
+  justify-self: center;
+  /* コンテナ内の個別アイテムの横方向の揃え位置を指定する */
+  align-self: center;
+  /* コンテナ内の個別アイテムのたて方向の揃え位置を指定する */
+}
+
+.login-page1 {
+  margin-top: 100px;
+  width: 480px;
+  justify-self: center;
+  /* コンテナ内の個別アイテムの横方向の揃え位置を指定する */
+  align-self: center;
+  /* コンテナ内の個別アイテムのたて方向の揃え位置を指定する */
+}
+
+.form {
+  position: relative;
+  background: rgba(255, 255, 255, 0.6);
+  /* 影を作る */
+  max-width: 360px;
+  padding: 50px;
+  box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
+}
+
+.form input {
+  outline: 0;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.form .button {
+  background: #ff735c;
+  width: 100%;
+  border: 0;
+  padding: 15px;
+  color: #fff;
+  border-radius: 4px;
+}
+
+.form .button:hover, .form .button:active, .form .button:focus {
+  background: #ff8f7c;
+  cursor: pointer;
+}
+
+.form input:focus, .form .button:focus {
+  outline: 0;
+}
+
+a {
+  color: #3b3b38;
+}
+
+.login_image {
+  margin: 100px auto 0 auto;
+  width: 500px;
+}
+
+.loginimg {
+  text-align: center;
+}
+
+.gohome {
+  text-align: center;
+  font-size: 20px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.h1 {
+  margin-left: 20px;
+}
+
+.itirann {
+  position: relative;
+  margin-top: 10px;
+  margin-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.itirann video {
+  background-color: #3b3b38;
+  margin: 0 5px 0 5px;
+  /* margin-bottom: 5px; */
+}
+
+.itirann h2 {
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.itirann h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.itirann h4 {
+  font-size: 25px;
+  top: 20px;
+  */ transform: translateY(-50px);
+}
+
+.live {
+  width: 750px;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.live p {
+  font-size: 17px;
+  text-align: left;
+}
+
+.iframe {
+  display: block;
+}
+
+.clear {
+  clear: both;
+}
+
+.logout {
+  background-color: #ff735c;
+  width: 80px;
+  border: 0;
+  padding: 15px;
+  color: #fff;
+  border-radius: 4px;
+  margin-right: 0;
+}
+
+.logout_wrapp {
+  margin-top: 30px;
+  text-align: right;
+}
+
+video {
+  background-color: #3b3b38;
+}
+
+.heart {
+  width: 40px;
+}
+
+.viewer {
+  vertical-align: top;
+  width: 650px;
+  margin-top: 20px;
+}
+
+.viewwrap {
+  position: relative;
+}
+
+.viewwrap h2, .viewwrap h3 {
+  width: 500px;
+  margin: 0;
+}
+
+.title {
+  width: 650px;
+}
+
+.kannren {
+  width: 250px;
+  position: absolute;
+  top: 90px;
+  right: 20px;
+}
+
+.sbox img {
+  padding-top: 20px;
+}
+
+.sbox {
+  padding: 0;
+}
+
+.title {
+  position: relative;
+}
+
+.ssbox {
+  position: absolute;
+  right: 5px;
+  top: 0;
+}
+
+.global_nav img {
+  width: 50%;
+  /* height: 72px; */
+}
+
+.topnav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.topnav img {
+  margin-top: 5px;
+}
+
+.loginimg {
+  height: 65px;
+  margin-left: 20px;
+}
+
+.rankingimg {
+  height: 65px;
+  margin-left: 20px;
+}
+
+.navimg {
+  height: 65px;
+  margin-left: 20px;
+}
+
+header {
+  position: relative;
+}
+
+.headlogo {
+  position: absolute;
+  height: 70px;
+  left: 30px;
+  margin: 0 auto;
+}
+
+header {
+  top: 0;
+  height: 70px;
+  background-color: #ffeb5a;
+}
+
+.global_nav li img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+header img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.myvideo {
+  display: flex;
+  height: 200px;
+}
+
+.myvideo video {
+  margin: 0 5px 0 5px;
+}
+
+.myfavvideo {
+  display: flex;
+  height: 200px;
+}
+
+.myfavvideo video {
+  margin: 0 5px 0 5px;
+}
+
+.myvideo h4, .myfavvideo h4 {
+  margin-bottom: 20px;
+}
+
+.viewhead {
+  z-index: 9999;
+  height: 150px;
+  /* position: sticky; */
+  top: 0;
+  background-color: #ffeb5a;
+}
+
+.ranking {
+  display: flex;
+  font-size: 30px;
+}
+
+.ranking li {
+  width: 310px;
+  padding-left: 5px;
+}
+
+.commentform {
+  position: absolute;
+  left: 50;
+  top: 580px;
+}
+
+.comment input[type="text"] {
+  width: 500px;
+  height: 30px;
+  margin-bottom: 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: 2px solid #ddd;
+}
+
+.viewcomment h5 {
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.comment input[type="submit"] {
+  width: 100px;
+  height: 35px;
+  margin-bottom: 10px;
+  background-color: #ff735c;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+.viewcomment {
+  position: absolute;
+  left: 0;
+  /* top: 660px; */
+}
+
+.comment {
+  margin-bottom: 20px;
+}
+
+.logins {
+  text-align: center;
+}
+
+.sinnkipage {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 360px;
+  justify-self: center;
+  /*コンテナ内の個別アイテムの横方向の揃え位置を指定する*/
+  align-self: center;
+  /*コンテナ内の個別アイテムの縦方向の揃え位置を指定する*/
+}
+
+.sinnkipage {
+  margin-top: 0px;
+  width: 360px;
+  justify-self: center;
+  /* コンテナ内の個別アイテムの横方向の揃え位置を指定する */
+  align-self: center;
+  /* コンテナ内の個別アイテムのたて方向の揃え位置を指定する */
+}
+
+.my h1 {
+  margin-bottom: 10px;
+}
+
+.my h2 {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+summary {
+  cursor: pointer;
+}
+
+summary {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.upload input[type="submit"]  {
+  background-color: #ff735c;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+  width: 100px;
+  height: 30px;
+}
+
+.upload p {
+  font-size: 12px;
+}
+
+.more {
+  text-align: right;
+  margin-right: 100px;
+}
+
+.details input[type="text"]{
+  height: 20px;
+  border-radius: 3px;
+  border: 2px solid #ddd;
+}
+
+details input {
+  margin-top: 10px;
+}
+
+details input[type="submit"]{
+  background-color: #ff735c;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+  width: 100px;
+  height: 30px;
+
+
+}
+
+
+.myvideos {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.myvideos video {
+  margin: 0 10px 0 10px;
+}
+
+.myvideos h4 {
+  margin-bottom: 20px;
+  margin-left: 8px;
+}
+
+.aqua hr {
+  border-top: 3px dashed #ff735c;
+}
+
+.aqua h2 {
+  margin-top: 20px;
+  font-weight: 200;
+  font-size: 25px;
+}
+
+.aqua h3 {
+  font-weight: 200;
+}
+
+.access {
+  margin-top: 10px;
+}
+
+.access input[type="submit"] {
+  width: 70px;
+  height: 30px;
+  margin-bottom: 10px;
+  background-color: #ff735c;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 3px;
+}
+
+select {
+  height: 30px;
+  margin-top: 10px;
+  border-radius: 3px;
+}
+
+.access label {
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: 300;
+}
+
+.near {
+  font-size: 30px;
+}
+
+.commentform hr, .notlogin hr {
+  border-top: 1px solid #ff9583;
+}
+
+/* topへ */
+.up {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  width: 55px;
+  height: 55px;
+}
+
+.kekka{
+  font-size: 20px;
+}

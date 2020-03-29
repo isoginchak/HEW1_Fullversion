@@ -1,0 +1,139 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffeb5a;
+}
+
+.wrap {
+  width: auto;
+  height: 450px;
+  position: relative;
+}
+
+h1 img {
+  height: 220px;
+  position: absolute;
+  top: 115px;
+  left: 160px;
+  margin: auto;
+}
+
+/* ループ */
+#loopslider {
+  margin: 0 auto;
+  height: 150px;
+  text-align: left;
+  position: relative;
+  overflow: hidden;
+}
+
+#loopslider ul {
+  height: 150px;
+  float: left;
+  display: inline;
+  overflow: hidden;
+}
+
+#loopslider ul li {
+  width: 150px;
+  height: 150px;
+  float: left;
+  display: inline;
+  overflow: hidden;
+}
+
+/* =======================================
+    ClearFixElements
+======================================= */
+#loopslider ul:after {
+  content: ".";
+  height: 0;
+  clear: both;
+  display: block;
+  visibility: hidden;
+}
+
+#loopslider ul {
+  display: inline-block;
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+nav {
+  width: 800px;
+  height: 110px;
+  position: absolute;
+  top: 170px;
+  left: 470px;
+}
+
+ul {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-start;
+}
+
+nav li {
+  width: 120px;
+  margin-left: 17px;
+}
+
+nav li img {
+  height: 100px;
+}
+
+.account li img:hover, nav li img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+.account ul {
+  list-style: none;
+  display: flex;
+}
+
+.account li img {
+  width: 100px;
+  margin-left: 10px;
+}
+
+.account {
+  position: absolute;
+  top: 20px;
+  right: 60px;
+}
+
+.ranking {
+  margin-right: 10px;
+}
+
+h2 img {
+  height: 50px;
+  position: absolute;
+  top: 280px;
+  left: 500px;
+}
+
+h2 img:hover {
+  transform: scale(1.1, 1.1);
+}
+
+p{
+  font-size: 20px;
+  color: #ff735c;
+  font-weight: 600;
+  position: absolute;
+  top:280px;
+  left: 500px;
+}
