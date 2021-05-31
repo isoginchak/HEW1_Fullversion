@@ -1,4 +1,5 @@
 <?php
+session_start();
 $mysql = new PDO("mysql:host=localhost;dbname=hew", "root", "", );
 $id=$_SESSION["ID"];
 $newname=$_POST["newname"];

@@ -11,56 +11,18 @@ body {
 
 .wrap {
   width: auto;
-  height: 450px;
+  height: 100vh;
   position: relative;
 }
 
 h1 img {
   height: 220px;
   position: absolute;
-  top: 115px;
-  left: 160px;
+  top: -150px;
+  bottom: 0;
+  left: -1000px;
+  right: 0;
   margin: auto;
-}
-
-/* ループ */
-#loopslider {
-  margin: 0 auto;
-  height: 150px;
-  text-align: left;
-  position: relative;
-  overflow: hidden;
-}
-
-#loopslider ul {
-  height: 150px;
-  float: left;
-  display: inline;
-  overflow: hidden;
-}
-
-#loopslider ul li {
-  width: 150px;
-  height: 150px;
-  float: left;
-  display: inline;
-  overflow: hidden;
-}
-
-/* =======================================
-    ClearFixElements
-======================================= */
-#loopslider ul:after {
-  content: ".";
-  height: 0;
-  clear: both;
-  display: block;
-  visibility: hidden;
-}
-
-#loopslider ul {
-  display: inline-block;
-  overflow: hidden;
 }
 
 a {
@@ -69,11 +31,14 @@ a {
 }
 
 nav {
-  width: 800px;
+  width: 600px;
   height: 110px;
   position: absolute;
-  top: 170px;
-  left: 470px;
+  top: -150px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
 }
 
 ul {
@@ -110,30 +75,41 @@ nav li img {
 
 .account {
   position: absolute;
-  top: 20px;
-  right: 60px;
+  top: 5%;
+  right: 5%;
 }
 
 .ranking {
   margin-right: 10px;
 }
 
-h2 img {
-  height: 50px;
+.title {
   position: absolute;
-  top: 280px;
-  left: 500px;
+  height: 25px;
+  width: 180px;
+  top: 20px;
+  bottom: 0;
+  left: -350px;
+  right: 0;
+  margin: auto;
 }
 
-h2 img:hover {
-  transform: scale(1.1, 1.1);
-}
-
-p{
-  font-size: 20px;
+.title p {
+  font-size: 16px;
   color: #ff735c;
   font-weight: 600;
+}
+
+.slide img {
+  height: 25vh;
+  height: 25vh;
+  object-fit: cover;
+}
+
+.slide {
   position: absolute;
-  top:280px;
-  left: 500px;
+  width: 100vw;
+  height: 25vh;
+  margin: auto;
+  bottom: 0;
 }

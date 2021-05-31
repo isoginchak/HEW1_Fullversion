@@ -53,6 +53,7 @@
           </li>
           <?php
 // ログイン状態チェック
+session_start();
 if (!isset($_SESSION['mailaddress'])) {
     ?>
           <li>

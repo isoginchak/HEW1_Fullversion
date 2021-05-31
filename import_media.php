@@ -1,4 +1,5 @@
 <?php
+session_start();
 if (isset($_GET["target"]) && $_GET["target"] !== "") {
     $target = $_GET["target"];
 } else {

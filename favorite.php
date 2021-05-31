@@ -1,4 +1,5 @@
 <?php
+session_start();
 header('Content-type: text/plain; charset= UTF-8');
 $mysql = new PDO("mysql:host=localhost;dbname=hew", "root", "", );
 $videoid =$_POST["videoid"];
