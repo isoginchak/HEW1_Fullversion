@@ -1,2 +1,2 @@
-<h1>1年次 進級作品展(HAL EVENT WEEK)<h1>
+<h1>1年次 進級作品展(HAL EVENT WEEK)</h1>
 ラッコ専門の動画共有サイトです。
